@@ -1,19 +1,46 @@
 /*Import link for Google font*/
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Rubik+Doodle+Shadow&display=swap');
 
-.body {
+body {
     background-image: url(../images/map-bg.jpg);
+    background-color: gray;
     font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-#page-title {
-    font-family: 'Rubik Doodle Shadow', sans-serif;
-    color: #ffffff;
-    background-color: #000000;
-    border-radius: 25px;
+header {
     display: flex;
     justify-content: center;
+}
+
+#page-title {
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-size: x-large;
+    color: #ffffff;
+    background-color: darkblue;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    min-height: 10vh;
+    width: 270px;
+}
+
+i {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+
+
+/*Media query: tablets and bigger (768px min)*/
+@media screen and (min-width: 768px) {
+    #page-title {
+        width: 450px;
+        font-size: xx-large;
+        }
 }
