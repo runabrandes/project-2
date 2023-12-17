@@ -14,11 +14,12 @@ body {
 header {
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 
 #page-title {
     font-family: 'Rubik Doodle Shadow', sans-serif;
-    font-size: x-large;
+    font-size: larger;
     color: #ffffff;
     background-color: darkblue;
     border-radius: 25px;
@@ -27,7 +28,7 @@ header {
     justify-content: center;
     align-content: center;
     min-height: 10vh;
-    width: 270px;
+    width: 300px;
 }
 
 i {
@@ -35,7 +36,18 @@ i {
     margin-left: 7px;
 }
 
+main{
+    min-height: 85vh;
+}
 
+
+/*Media query: mobiles and bigger (320px min)*/
+@media screen and (min-width: 320px) {
+    #page-title {
+        width: 450px;
+        font-size: x-large;
+    }
+}
 
 /*Media query: tablets and bigger (768px min)*/
 @media screen and (min-width: 768px) {
