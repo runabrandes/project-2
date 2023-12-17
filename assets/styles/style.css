@@ -38,6 +38,16 @@ i {
 
 main{
     min-height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.quiz-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 
