@@ -77,6 +77,28 @@ main {
     border-style: dotted;
 }
 
+.control-buttons {
+    padding: 5px;
+}
+
+#start {
+    margin: 0px 5px;
+    border-width: 2px;
+}
+
+#next {
+    margin: 0px 5px;
+    border-width: 2px;
+}
+
+#start:hover {
+    border-style: dotted;
+}
+
+#next:hover {
+    border-style: dotted;
+}
+
 .score-area {
     display: flex;
     align-items: flex-end;
