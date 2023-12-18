@@ -51,11 +51,11 @@ main {
     justify-content: center;
     background-color: rgba(44, 50, 56, 0.8);
     height: 70vh;
-    width: 90vw;
+    width: 85vw;
 }
 
 .question-area {
-    margin: 10px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
     font-size: large;
 }
 
@@ -70,11 +70,20 @@ main {
     border-width: 2px;
     border-color: black;
     height: 35px;
-    width: 50vw;
+    width: 175px;
 }
 
 .btn:hover {
     border-style: dotted;
+}
+
+.score-area {
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
+    justify-content: center;
+    width: 55vw;
+    margin-top: 20px;
 }
 
 footer {
@@ -97,6 +106,15 @@ footer {
         width: 450px;
         font-size: x-large;
     }
+
+    .score-area {
+        display: flex;
+        align-items: flex-end;
+        height: 50px;
+        justify-content: flex-end;
+        width: 55vw;
+        margin-top: 20px;
+}
 }
 
 /*Media query: tablets and bigger (768px min)*/
@@ -105,4 +123,23 @@ footer {
         width: 450px;
         font-size: xx-large;
     }
+
+    .quiz-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(44, 50, 56, 0.8);
+    height: 65vh;
+    width: 75vw;
+    }
+
+.btn {
+    margin: 5px;
+    padding: 10px;
+    border-width: 2px;
+    border-color: black;
+    height: 35px;
+    width: 250px;
+}
 }
