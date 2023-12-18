@@ -99,7 +99,7 @@ main {
     border-style: dotted;
 }
 
-.score-area {
+#score-area {
     display: flex;
     align-items: flex-end;
     height: 50px;
@@ -129,7 +129,7 @@ footer {
         font-size: x-large;
     }
 
-    .score-area {
+    #score-area {
         display: flex;
         align-items: flex-end;
         height: 50px;
