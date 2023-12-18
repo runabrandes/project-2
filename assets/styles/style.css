@@ -36,6 +36,10 @@ i {
     margin-left: 7px;
 }
 
+.hide {
+    display: none !important;
+}
+
 main {
     min-height: 83vh;
     display: flex;
@@ -84,11 +88,17 @@ main {
 #start {
     margin: 0px 5px;
     border-width: 2px;
+    border-color: black;
+    width: 60px;
+    height: 50px;
 }
 
 #next {
     margin: 0px 5px;
     border-width: 2px;
+    border-color: black;
+    width: 60px;
+    height: 50px;
 }
 
 #start:hover {
@@ -147,21 +157,21 @@ footer {
     }
 
     .quiz-area {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(44, 50, 56, 0.8);
-    height: 65vh;
-    width: 75vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(44, 50, 56, 0.8);
+        height: 65vh;
+        width: 75vw;
     }
 
-.btn {
-    margin: 5px;
-    padding: 10px;
-    border-width: 2px;
-    border-color: black;
-    height: 35px;
-    width: 250px;
-}
+    .btn {
+        margin: 5px;
+        padding: 10px;
+        border-width: 2px;
+        border-color: black;
+        height: 35px;
+        width: 250px;
+    }
 }
