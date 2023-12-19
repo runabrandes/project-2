@@ -37,7 +37,7 @@ i {
 }
 
 .hide {
-    display: none !important;
+    display: none;
 }
 
 main {
@@ -91,6 +91,7 @@ main {
     border-color: black;
     width: 60px;
     height: 50px;
+    font-weight: bold;
 }
 
 #next {
@@ -99,6 +100,7 @@ main {
     border-color: black;
     width: 60px;
     height: 50px;
+    font-weight: bold;
 }
 
 #start:hover {
