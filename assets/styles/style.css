@@ -36,9 +36,9 @@ i {
     margin-left: 7px;
 }
 
-/*.hide {
+.hide {
     display: none;
-}*/
+}
 
 main {
     min-height: 83vh;
