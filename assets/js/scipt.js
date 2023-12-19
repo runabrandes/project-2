@@ -2,6 +2,15 @@ const startBtn = document.getElementById('start');
 const quizArea = document.getElementById('quiz-area');
 const nextBtn = document.getElementById('next');
 
+const questionArea = document.getElementById('question');
+const answerBtn = document.getElementById('answer-buttons');
+
+let currentIndex = 0;
+let score = 0;
+
+startBtn.addEventListener('click', startQuiz);
+
+
 const questions = [
     {
         question: "What is the capital city of Australia?",
@@ -96,11 +105,15 @@ const questions = [
 ]
 
 
-startBtn.addEventListener('click', startQuiz);
-
 function startQuiz() {
     console.log('Start');
     startBtn.classList.add('hide');
     quizArea.classList.remove('hide');
     nextBtn.classList.remove('hide');
+    currentIndex = 0;
+    score = 0;
+}
+
+function displayQuestion() {
+
 }
