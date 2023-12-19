@@ -36,9 +36,9 @@ i {
     margin-left: 7px;
 }
 
-.hide {
+/*.hide {
     display: none;
-}
+}*/
 
 main {
     min-height: 83vh;
@@ -48,7 +48,7 @@ main {
     align-content: center;
 }
 
-.quiz-area {
+#game-div {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -59,6 +59,8 @@ main {
 }
 
 .question-area {
+    display: flex;
+    justify-content: center;
     margin: 20px 0px 20px 0px;
     font-size: large;
 }
@@ -158,7 +160,7 @@ footer {
         font-size: xx-large;
     }
 
-    .quiz-area {
+    #game-div {
         display: flex;
         align-items: center;
         flex-direction: column;
