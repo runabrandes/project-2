@@ -47,7 +47,7 @@ const questions = [
             { text: "Belgium", correct: false },
             { text: "Switzerland", correct: false },
         ]
-    },  
+    },
     {
         question: "Which ocean is the largest in the world?",
         answers: [
@@ -65,7 +65,7 @@ const questions = [
             { text: "San Marino", correct: false },
             { text: "Monaco", correct: false },
         ]
-    },  
+    },
     {
         question: "Which country is home to the ancient ruins of Machu Picchu?",
         answers: [
@@ -74,7 +74,7 @@ const questions = [
             { text: "Peru", correct: true },
             { text: "Chile", correct: false },
         ]
-    },  
+    },
     {
         question: "Which city is known for its iconic Golden Gate Bridge?",
         answers: [
@@ -86,7 +86,7 @@ const questions = [
     },
     {
         question: "Which country is known for its delicious chocolate and Swiss Alps?",
-        answers: [        
+        answers: [
             { text: "Germany", correct: false },
             { text: "Switzerland", correct: true },
             { text: "Austria", correct: false },
@@ -102,11 +102,10 @@ const questions = [
             { text: "Canada", correct: true },
         ]
     },
-]
-
+];
 
 function startQuiz() {
-    console.log('Start');
+    displayQuestion();
     startBtn.classList.add('hide');
     quizArea.classList.remove('hide');
     nextBtn.classList.remove('hide');
@@ -115,5 +114,7 @@ function startQuiz() {
 }
 
 function displayQuestion() {
-
+    let currentQuestion = questions[currentIndex];
+    let nextQuestion = currentIndex + 1;
+    questionArea.innerHTML = currentQuestion["question"];
 }
