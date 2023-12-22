@@ -2,16 +2,14 @@ const startBtn = document.getElementById('start');
 const quizArea = document.getElementById('quiz-area');
 const nextBtn = document.getElementById('next');
 
-const questionArea = document.getElementById('question');
-const answerBtn = document.getElementById('answer-buttons');
+let questionArea = document.getElementById('question');
+let answerBtn = document.getElementsByClassName('answer-btn');
+let scoreDisplay = document.getElementById('score-display');
 
 let currentIndex = 0;
 let score = 0;
 
-startBtn.addEventListener('click', startQuiz);
-
-
-const questions = [
+let questions = [
     {
         question: "What is the capital city of Australia?",
         answers: [
@@ -109,12 +107,59 @@ function startQuiz() {
     startBtn.classList.add('hide');
     quizArea.classList.remove('hide');
     nextBtn.classList.remove('hide');
+    scoreDisplay.classList.remove('hide');
     currentIndex = 0;
-    score = 0;
+    score = 1;
 }
 
 function displayQuestion() {
     let currentQuestion = questions[currentIndex];
     let nextQuestion = currentIndex + 1;
     questionArea.innerHTML = currentQuestion["question"];
+
+    //Accessing the answers array to display answers in button elements
+    Array.from(answerBtn).forEach((element, index) => {
+        let answers = questions[currentIndex]["answers"];
+        element.innerText = answers[index]["text"];
+        element.setAttribute("data-answers", answers[index]["correct"]);
+    });
 }
+
+function displayNextQuestion() {
+    console.log(questionArea);
+    //Iterates through questions in array
+    currentIndex++;
+
+    //When no more questions in array alert pops up notifying user of points scored
+    if (currentIndex == questions.length) {
+        alert(`You have scored ${score - 1} point(s)! Congratulations! To restart the game refresh the page :)`);
+    } else {
+        displayQuestion();
+    }
+}
+
+function displayAnswersinButtons() {
+    answerBtn.innerText = answers;
+}
+
+//Checks if answers are true or false and updates the score
+function trueFalseAnswer(trueFalse) {
+    console.log("Hello");
+    console.log(trueFalse);
+    if (trueFalse === 'true') {
+        scoreDisplay.innerText = score++;
+        console.log("Correct");
+    } else {
+        console.log("Incorrect");
+    }
+}
+
+
+startBtn.addEventListener('click', startQuiz);
+nextBtn.addEventListener('click', displayNextQuestion);
+for (let i = 0; i < answerBtn.length; i++) {
+    answerBtn[i].addEventListener('click', (event) => {
+        const dataAnswersValue = answerBtn[i].getAttribute('data-answers');
+        trueFalseAnswer(dataAnswersValue);
+    });
+};
