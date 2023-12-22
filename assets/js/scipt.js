@@ -138,10 +138,6 @@ function displayNextQuestion() {
     }
 }
 
-function displayAnswersinButtons() {
-    answerBtn.innerText = answers;
-}
-
 //Checks if answers are true or false and updates the score
 function trueFalseAnswer(trueFalse) {
     console.log("Hello");
