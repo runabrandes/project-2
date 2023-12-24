@@ -1,6 +1,7 @@
 const startBtn = document.getElementById("start");
 const quizArea = document.getElementById("quiz-area");
 const nextBtn = document.getElementById("next");
+const rules = document.getElementById("rules");
 
 let questionArea = document.getElementById("question");
 let answerBtn = document.getElementsByClassName("answer-btn");
@@ -111,6 +112,7 @@ function startQuiz() {
     nextBtn.classList.remove("hide");
     score2.classList.remove("hide");
     scoreDisplay.classList.remove("hide");
+    rules.classList.add("hide");
     currentIndex = 0;
     score = 1;
 }
@@ -136,7 +138,7 @@ function displayNextQuestion() {
     if (currentIndex == questions.length) {
         alert(
             `You have scored ${score - 1
-            } point(s)! Congratulations! To restart the game refresh the page :)`
+            } out of 10 points! Congratulations! To restart the game refresh the page :)`
         );
     } else {
         displayQuestion();
@@ -148,16 +150,17 @@ function trueFalseAnswer(trueFalse) {
     if (trueFalse === "true") {
         scoreDisplay.innerText = score++;
         console.log("Correct");
-        alert("Correct answer! +1 point :D Click the Next button to continue the quiz.");
+        alert("Correct! +1 point :D Click the Next button to continue the quiz.");
     } else {
         console.log("Incorrect");
-        alert("Wrong answer! No points for this round :( Click the Next button to continue the quiz.");
+        alert("Wrong! No points for this round :( Click the Next button to continue the quiz.");
     }
 }
 
 //Event Listeners 
 startBtn.addEventListener("click", startQuiz);
 nextBtn.addEventListener("click", displayNextQuestion);
+//Event Listener for answerButton that acceses the "correct" value of the answers
 for (let i = 0; i < answerBtn.length; i++) {
     answerBtn[i].addEventListener("click", (event) => {
         const dataAnswersValue = answerBtn[i].getAttribute("data-answers");
