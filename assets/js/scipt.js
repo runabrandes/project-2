@@ -117,7 +117,6 @@ function startQuiz() {
 
 function displayQuestion() {
     let currentQuestion = questions[currentIndex];
-    let nextQuestion = currentIndex + 1;
     questionArea.innerHTML = currentQuestion["question"];
 
     //Accessing the answers array to display answers in button elements
