@@ -1,10 +1,10 @@
 /*Import link for Google font*/
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Rubik+Doodle+Shadow&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Rubik+Doodle+Shadow&display=swap");
 
 body {
     background-image: url(../images/map-bg.jpg);
     background-color: gray;
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     color: #ffffff;
     min-height: 100vh;
     display: flex;
@@ -18,7 +18,7 @@ header {
 }
 
 #page-title {
-    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-family: "Rubik Doodle Shadow", sans-serif;
     color: #ffffff;
     background-color: darkblue;
     border-radius: 25px;

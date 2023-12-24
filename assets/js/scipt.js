@@ -146,16 +146,17 @@ function displayNextQuestion() {
 
 //Checks if answers are true or false and updates the score
 function trueFalseAnswer(trueFalse) {
-    console.log("Hello");
-    console.log(trueFalse);
     if (trueFalse === "true") {
         scoreDisplay.innerText = score++;
         console.log("Correct");
+        alert("Correct answer! +1 point :D Click the Next button to continue the quiz.");
     } else {
         console.log("Incorrect");
+        alert("Wrong answer! No points for this round :( Click the Next button to continue the quiz.");
     }
 }
 
+//Event Listeners 
 startBtn.addEventListener("click", startQuiz);
 nextBtn.addEventListener("click", displayNextQuestion);
 for (let i = 0; i < answerBtn.length; i++) {
