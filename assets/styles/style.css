@@ -19,7 +19,6 @@ header {
 
 #page-title {
     font-family: 'Rubik Doodle Shadow', sans-serif;
-    font-size: larger;
     color: #ffffff;
     background-color: darkblue;
     border-radius: 25px;
@@ -140,7 +139,6 @@ footer {
 @media screen and (min-width: 320px) {
     #page-title {
         width: 450px;
-        font-size: x-large;
     }
 
     #score-area {
@@ -150,7 +148,7 @@ footer {
         justify-content: flex-end;
         width: 55vw;
         margin-top: 20px;
-}
+    }
 }
 
 /*Media query: tablets and bigger (768px min)*/
