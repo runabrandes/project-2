@@ -10,47 +10,84 @@ It informs the user of general rules, features clickable buttons and alerts the 
 
 ## FINAL DESIGN
 
-![Final project image](assets/README_images/amIresponsive_original.png) [Am  I Responsive](https://amiresponsive.co.uk/)
+![Final project image](assets/README_images/amIresponsive_original.png) [Am I Responsive](https://amiresponsive.co.uk/)
 
 ## PROJECT IDEA
 
 My idea for Project 2 stems from my interest in Geography and travelling. I wanted to create a fun and easy to understand quiz that focuses on facts from around the globe.
 
-  The features I wanted the game to have are:
+The features I wanted the game to have are:
 
-* Quiz navigations and controls are easy to understand
-* Simple but nice to look at design that fits the topic of the quiz
-* Website gives feedback dependig on user input
+- Quiz navigations and controls are easy to understand
+- Simple but nice to look at design that fits the topic of the quiz
+- Website gives feedback dependig on user input
 
 #
 
 ## UX/UI
 
-* The quiz is simple and fun for user's of different age groups
-* The quiz and navigations are explained so the user can play the game qithout any troubles
-* The page has been desgined so it is easy to read (no visual disturbance by background image)
-* The background image used is of good quality and fits the page content
+- The quiz is simple and fun for user's of different age groups
+- The quiz and navigations are explained so the user can play the game qithout any troubles
+- The page has been desgined so it is easy to read (no visual disturbance by background image)
+- The background image used is of good quality and fits the page content
 
 ## SITE GOALS
 
-* To make the site accessible
-* Providing users with an easy to read and navigate website
-* Providing users with information of how to navigate game and make it easy to understand
+- To make the site accessible
+- Providing users with an easy to read and navigate website
+- Providing users with information of how to navigate game and make it easy to understand
 
 #
 
 ## WIREFRAMES
 
-* Wireframes for mobile and desktop:
+- Wireframes for mobile and desktop:
 
- Wireframes for Start Page
-  
-  ![wireframesstartdesktop](assets/README_images/start-desktop-wf.png)
+Wireframes for Start Page
 
-  ![wireframesstartmobile](assets/README_images/start-mobile-wf.png)
+![wireframesstartdesktop](assets/README_images/start-desktop-wf.png)
 
- Wireframes for Quiz Page
+![wireframesstartmobile](assets/README_images/start-mobile-wf.png)
 
-  ![wireframesquizdesktop](assets/README_images/quiz-desktop-wf.png)
+Wireframes for Quiz Page
 
-  ![wireframesquizmobile](assets/README_images/quiz-mobile-wf.png)
+![wireframesquizdesktop](assets/README_images/quiz-desktop-wf.png)
+
+![wireframesquizmobile](assets/README_images/quiz-mobile-wf.png)
+
+#
+
+## WEBSITE FEATURES
+
+- The website consists of 1 page which features a Start page and the actual Quiz, which can be reached by pressing a "Start" button.
+
+- Start page
+
+  - The Start page features a header ("Geography Quiz") and a Start button as well as a text section which explains the rules of the quiz.
+    ![startpage](assets/README_images/start.png)
+
+- Quiz
+
+  - Once the "Start" button has been clicked the Quiz page will be displayed. This features a question area as well as four answer buttons and a Next button.
+    When an answer button is clicked the user will be notified if the answer selected was right or wrong, the score will be updated accordingly and the user will be prompted to click the Next button to continue to the next question.
+
+  ![heroimage](assets/README_images/question.png)
+
+- Header
+
+  ![headerimage](assets/README_images/header.png)
+
+- Question Area
+
+  ![questionareaimage](assets/README_images/question-area.png)
+
+- Score Alert
+
+  ![scoreimage](assets/README_images/score-alert.png)
+
+- Game End Alert
+
+  ![gameendalert](assets/README_images/gameend-alert.png)
+
+#
+
