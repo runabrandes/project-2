@@ -10,4 +10,16 @@ It informs the user of general rules, features clickable buttons and alerts the 
 
 ## FINAL DESIGN
 
-![Final project image](assets/images/amIresponsive_original.png) [Am  I Responsive](https://amiresponsive.co.uk/)
+![Final project image](assets/README_images/amIresponsive_original.png) [Am  I Responsive](https://amiresponsive.co.uk/)
+
+## PROJECT IDEA
+
+My idea for Project 2 stems from my interest in Geography and travelling. I wanted to create a fun and easy to understand quiz that focuses on facts from around the globe.
+
+  The features I wanted the game to have are:
+
+* Quiz navigations and controls are easy to understand
+* Simple but nice to look at design that fits the topic of the quiz
+* Website gives feedback dependig on user input
+
+#
