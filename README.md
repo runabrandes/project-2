@@ -37,3 +37,20 @@ My idea for Project 2 stems from my interest in Geography and travelling. I want
 * Providing users with an easy to read and navigate website
 * Providing users with information of how to navigate game and make it easy to understand
 
+#
+
+## WIREFRAMES
+
+* Wireframes for mobile and desktop:
+
+ Wireframes for Start Page
+  
+  ![wireframesstartdesktop](assets/README_images/start-desktop-wf.png)
+
+  ![wireframesstartmobile](assets/README_images/start-mobile-wf.png)
+
+ Wireframes for Quiz Page
+
+  ![wireframesquizdesktop](assets/README_images/quiz-desktop-wf.png)
+
+  ![wireframesquizmobile](assets/README_images/quiz-mobile-wf.png)
