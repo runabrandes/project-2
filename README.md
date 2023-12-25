@@ -23,3 +23,17 @@ My idea for Project 2 stems from my interest in Geography and travelling. I want
 * Website gives feedback dependig on user input
 
 #
+
+## UX/UI
+
+* The quiz is simple and fun for user's of different age groups
+* The quiz and navigations are explained so the user can play the game qithout any troubles
+* The page has been desgined so it is easy to read (no visual disturbance by background image)
+* The background image used is of good quality and fits the page content
+
+## SITE GOALS
+
+* To make the site accessible
+* Providing users with an easy to read and navigate website
+* Providing users with information of how to navigate game and make it easy to understand
+
