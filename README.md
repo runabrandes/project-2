@@ -94,12 +94,13 @@ Wireframes for Quiz Page
 ## DESIGN
 
 - COLOUR SCHEME
+
   - The header features a dark-blue background with a white font and two icons.
   - The overall background is an image featuring maps of different areas of the world, which is fitting for the topic of Geography.
-  The backup for the background is a dark grey colour to ensure that the white font, which has been used for the entirety of the website, will still be visible even if the background image should not load.
+    The backup for the background is a dark grey colour to ensure that the white font, which has been used for the entirety of the website, will still be visible even if the background image should not load.
   - The Quiz Area has a grey background which is slightly opaque so the background image will still be visible to the user but the visibility of the question area will not be disturbed.
   - The buttons are white with black text to ensure good readablitiy of the text.
-  
+
   - All used colours with their rgb codes can be found below:
   - ![headerbackground](assets/README_images/rgb0-0-139.png) rgb(0, 0, 139)
   - ![headerfontcolour](assets/README_images/rgb255-255-255.png) rgb(255, 255, 255)
@@ -107,6 +108,7 @@ Wireframes for Quiz Page
   - ![generalbackground](assets/README_images/rgb70-70-70.png) rgb(70, 70, 70)
 
 - TYPOGRAPHY
+
   - The fonts used are "Rubik Doodle Shadow" and "Exo 2".
   - "Rubik Doodle Shadow" was used for the header of the website.
   - "Exo 2" was used for the rest of the website.
@@ -116,5 +118,17 @@ Wireframes for Quiz Page
 - MEDIA
   - Only one image has been used for this website which has been sourced from [pexels.com](https://www.pexels.com/).
     This is the background image for the body of the page that features maps of different regions of the world.
+  - The FAVICON for the website has been taken from [icons8.com](https://icons8.com/icon/w_qRMJOKoZGs/globe-showing-europe-africa).
 
 #
+
+## TESTING
+
+### VALIDATORS
+
+- HTML
+  - I have checked my HTML using the [W3C HTML Validator](https://validator.w3.org/#validate_by_input).
+  - I have had no errors come up but one warning which has informed me that the game section does not have a header and if no header is needed, it would be better practice to change this to a div. I have since changed the section to a div and the testing has passed without errors or warnings afterwards.
+  - There were a few "Info" messages showing, stating "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.", which is due to the Prettier extension in CodeAnywhere being used.
+  
+![HTMLtesting](assets/README_images/HTML-testing.png)
