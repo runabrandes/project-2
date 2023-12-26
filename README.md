@@ -209,6 +209,20 @@ My website has not shown any errors whilst testing was carried out. I only had o
 - Am I Responsive
 - W3C HTML Validator
 - W3C CSS Validator
+- JSHint
 - WAVE
+
+#
+
+## DEPLOYMENT
+
+"Geography Quiz" was deployed using GitHub. A link to the live version can be found at the top of this README file.
+
+1. Click on the "Settings" icon at the top of page in the navigation bar of the relevant repository.
+2. Select "Pages" which can be found on the left handside of the GitHub website.
+3. In the dropdown menu for Source, select "Deploy from a branch".
+4. In the Branch dropdown menu, select "main" for the first selection, and "root" for the second selection.
+5. Click "Save".
+6. The website will refresh and a link to the live website will be available.
 
 #
