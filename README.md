@@ -142,3 +142,34 @@ Wireframes for Quiz Page
 
 My website has been tested for accessibilty using the WAVE - Web Accessibility Evaluation Tool.
 The report can be viewed [here](https://wave.webaim.org/report#/https://runabrandes.github.io/project-2/)
+
+### LIGHTHOUSE
+
+- Lighthouse testing was carried out successfully for the page. See below for the outcome:
+
+![lighthouse](assets/README_images/lighthouse.png)
+
+### DEVICES
+
+I have tested responsiveness and functionality on the following devices and browsers:
+  
+- Android:
+
+  - Galaxy Tab 7
+
+- Apple:
+
+  - iPad mini
+  - iPhone 14 Pro Max
+  
+- Desktops/laptops:
+
+  - HP Pavilion Laptop
+  - MacBook Air 2023
+  
+- Browsers:
+
+  - Chrome
+  - Safari
+
+#
