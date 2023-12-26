@@ -184,3 +184,9 @@ I have tested responsiveness and functionality on the following devices and brow
 My website has not shown any errors whilst testing was carried out. I only had one warning messages during HTML testing. The warning and the fix can be found in the "Testing - Validators" section of this README document.
 
 #
+
+## TECHNOLOGIES USED
+
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/CSS#CSS_3)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
