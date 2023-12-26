@@ -134,9 +134,14 @@ Wireframes for Quiz Page
 ![HTMLtesting](assets/README_images/HTML-testing.png)
 
 - CSS
-  - I have checked my style.css file with the W3C CSS Validator and was given no errors. There was one warning message regarding the imported style sheets from Google Fonts stating "Imported style sheets are not checked in direct input and file upload modes". This can not be changed as it is an external file from Google Fonts.
+  - I have checked my style.css file with the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and was given no errors. There was one warning message regarding the imported style sheets from Google Fonts stating "Imported style sheets are not checked in direct input and file upload modes". This can not be changed as it is an external file from Google Fonts.
 
 ![CSStesting](assets/README_images/CSS-testing.png)
+
+- JavaScript
+  - The script.js file was tested using [JSHint.com](https://jshint.com/).
+  The testing showed several warnings but no errors.
+  Warnings were revolvong around "ES6 (use 'esversion: 6') or Mozilla JS extensions" and "using dot notation".
 
 ### ACCESSIBILITY
 
@@ -190,3 +195,20 @@ My website has not shown any errors whilst testing was carried out. I only had o
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/CSS#CSS_3)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+#
+
+## PROGRAMS USED
+
+- Github
+- CodeAnywhere
+- FontAwesome
+- Google Fonts
+- Chrome Developer Tools
+- Balsamiq Wireframes
+- Am I Responsive
+- W3C HTML Validator
+- W3C CSS Validator
+- WAVE
+
+#
