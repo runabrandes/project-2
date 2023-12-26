@@ -226,3 +226,15 @@ My website has not shown any errors whilst testing was carried out. I only had o
 6. The website will refresh and a link to the live website will be available.
 
 #
+
+## CREDITS
+
+- Google Fonts - for sourcing and importing all fonts for my website
+- Font Awesome - for the icons in the footer and throughout my website
+- W3schools - for tips and tricks on coding techniques
+- Stack overflow - for more tips and tricks
+- Slack community - for assisting with some coding issues
+- The Code Institute Tutoring Team - for helping me with some JavaScript code I was unable to solve
+- YouTube - for different videos on JavaScript functions that gave me a starting idea on how to develop this quiz
+
+#
