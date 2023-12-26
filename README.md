@@ -1,4 +1,4 @@
-# PORTFOLIO PROJECT 1
+# PORTFOLIO PROJECT 2
 
 # Geography Quiz
 
@@ -230,11 +230,18 @@ My website has not shown any errors whilst testing was carried out. I only had o
 ## CREDITS
 
 - Google Fonts - for sourcing and importing all fonts for my website
-- Font Awesome - for the icons in the footer and throughout my website
+- Font Awesome - for the icons used for the header
 - W3schools - for tips and tricks on coding techniques
 - Stack overflow - for more tips and tricks
 - Slack community - for assisting with some coding issues
 - The Code Institute Tutoring Team - for helping me with some JavaScript code I was unable to solve
 - YouTube - for different videos on JavaScript functions that gave me a starting idea on how to develop this quiz
+  - [First video used](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1453s)
+  - [Second video used](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1052s)
 
 #
+
+## ACKNOWLEDGEMENTS
+
+- My husband Jamie who has taken the time to look at my project and has given me advice.
+- My mentor Rory for taking his time helping and guiding me in the right direction with his feedback and suggestions. Thank you for your support and help!
