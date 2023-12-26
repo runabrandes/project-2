@@ -93,7 +93,7 @@ Wireframes for Quiz Page
 
 ## DESIGN
 
-- Colour Scheme:
+- COLOUR SCHEME
   - The header features a dark-blue background with a white font and two icons.
   - The overall background is an image featuring maps of different areas of the world, which is fitting for the topic of Geography.
   The backup for the background is a dark grey colour to ensure that the white font, which has been used for the entirety of the website, will still be visible even if the background image should not load.
@@ -105,3 +105,16 @@ Wireframes for Quiz Page
   - ![headerfontcolour](assets/README_images/rgb255-255-255.png) rgb(255, 255, 255)
   - ![questiondivbackgroundcolour](assets/README_images/rgb44-50-56.png) rbg(44, 50, 56)
   - ![generalbackground](assets/README_images/rgb70-70-70.png) rgb(70, 70, 70)
+
+- TYPOGRAPHY
+  - The fonts used are "Rubik Doodle Shadow" and "Exo 2".
+  - "Rubik Doodle Shadow" was used for the header of the website.
+  - "Exo 2" was used for the rest of the website.
+  - The backup font for the entire website is sans-serif.
+  - "Rubik Doodle Shadow" and "Exo 2" were imported from Google Fonts.
+
+- MEDIA
+  - Only one image has been used for this website which has been sourced from [pexels.com](https://www.pexels.com/).
+    This is the background image for the body of the page that features maps of different regions of the world.
+
+#
