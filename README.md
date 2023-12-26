@@ -172,4 +172,15 @@ I have tested responsiveness and functionality on the following devices and brow
   - Chrome
   - Safari
 
+### FUNCTIONALITY OF WEBSITE
+
+- The quiz is working as intended with clickable Start, Next and answer buttons
+- Score is incrementing according to correct answers given
+- Correct alerts are showing depending on if answer was correct or wrong
+- Background image loaded on all tested devices
+
+### SOLVED / UNSOLVED BUGS AND ERRORS
+
+My website has not shown any errors whilst testing was carried out. I only had one warning messages during HTML testing. The warning and the fix can be found in the "Testing - Validators" section of this README document.
+
 #
