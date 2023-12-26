@@ -132,3 +132,13 @@ Wireframes for Quiz Page
   - There were a few "Info" messages showing, stating "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.", which is due to the Prettier extension in CodeAnywhere being used.
   
 ![HTMLtesting](assets/README_images/HTML-testing.png)
+
+- CSS
+  - I have checked my style.css file with the W3C CSS Validator and was given no errors. There was one warning message regarding the imported style sheets from Google Fonts stating "Imported style sheets are not checked in direct input and file upload modes". This can not be changed as it is an external file from Google Fonts.
+
+![CSStesting](assets/README_images/CSS-testing.png)
+
+### ACCESSIBILITY
+
+My website has been tested for accessibilty using the WAVE - Web Accessibility Evaluation Tool.
+The report can be viewed [here](https://wave.webaim.org/report#/https://runabrandes.github.io/project-2/)
