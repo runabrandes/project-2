@@ -186,7 +186,7 @@ I have tested responsiveness and functionality on the following devices and brow
 
 ### SOLVED / UNSOLVED BUGS AND ERRORS
 
-My website has not shown any errors whilst testing was carried out. I only had one warning messages during HTML testing. The warning and the fix can be found in the "Testing - Validators" section of this README document.
+My website has not shown any errors whilst testing was carried out. I only had one warning message during HTML testing. The warning and the fix can be found in the "Testing - Validators" section of this README document.
 
 #
 
