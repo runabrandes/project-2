@@ -162,11 +162,37 @@ function trueFalseAnswer(trueFalse) {
 //Event Listeners
 startBtn.addEventListener("click", startQuiz);
 nextBtn.addEventListener("click", displayNextQuestion);
+nextBtn.addEventListener("click", resetAnswerBtnColour);
+
 /*Event Listener for answerButton that accesses the "correct" value of the answers array
-Tutor from CodeInstitue helped with this code section*/
+Tutor from CodeInstitue helped with this code section!*/
 for (let i = 0; i < answerBtn.length; i++) {
     answerBtn[i].addEventListener("click", (event) => {
         const dataAnswersValue = answerBtn[i].getAttribute("data-answers");
         trueFalseAnswer(dataAnswersValue);
+        loopOverAllButtons();
     });
+}
+
+//Function to change the answer button colours depending on if answer is correct or false 
+function loopOverAllButtons() {
+    for (let i = 0; i < answerBtn.length; i++) {
+        const colour = answerBtn[i].getAttribute('data-answers');
+
+        switch (colour) {
+            case 'true':
+                answerBtn[i].style.backgroundColor = 'green';
+                break;
+            case 'false':
+                answerBtn[i].style.backgroundColor = 'red';
+                break;
+        }
+    }
+}
+
+//Resets the answer button colours once the Next button is clicked
+function resetAnswerBtnColour() {
+    for (let i = 0; i < answerBtn.length; i++) {
+        answerBtn[i].style.backgroundColor = '';
+    }
 }
