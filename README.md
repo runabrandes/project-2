@@ -26,16 +26,16 @@ The features I wanted the game to have are:
 
 ## UX/UI
 
-- The quiz is simple and fun for user's of different age groups
-- The quiz and navigations are explained so the user can play the game qithout any troubles
-- The page has been desgined so it is easy to read (no visual disturbance by background image)
+- The quiz is simple and fun for users of different age groups
+- The quiz and navigations are explained so the user can play the game without any troubles
+- The page has been designed so it is easy to read (no visual disturbance by the background image)
 - The background image used is of good quality and fits the page content
 
 ## SITE GOALS
 
 - To make the site accessible
 - Providing users with an easy to read and navigate website
-- Providing users with information of how to navigate game and make it easy to understand
+- Providing users with information of how to navigate the game and make it easy to understand
 
 #
 
@@ -68,8 +68,8 @@ Wireframes for Quiz Page
 
 - Quiz
 
-  - Once the "Start" button has been clicked the Quiz page will be displayed. This features a question area as well as four answer buttons and a Next button.
-    When an answer button is clicked the user will be notified if the answer selected was right or wrong, the score will be updated accordingly and the user will be prompted to click the Next button to continue to the next question.
+  - Once the "Start" button has been clicked the Quiz page will be displayed. This features a question area as well as four answer buttons and a "Next" button.
+    When an answer button is clicked the user will be notified if the answer selected was right or wrong, the score will be updated accordingly and the user will be prompted to click the "Next" button to continue to the next question.
 
   ![heroimage](assets/README_images/question.png)
 
@@ -99,12 +99,12 @@ Wireframes for Quiz Page
   - The overall background is an image featuring maps of different areas of the world, which is fitting for the topic of Geography.
     The backup for the background is a dark grey colour to ensure that the white font, which has been used for the entirety of the website, will still be visible even if the background image should not load.
   - The Quiz Area has a grey background which is slightly opaque so the background image will still be visible to the user but the visibility of the question area will not be disturbed.
-  - The buttons are white with black text to ensure good readablitiy of the text.
+  - The buttons are white with black text to ensure good readability of the text.
 
   - All used colours with their rgb codes can be found below:
   - ![headerbackground](assets/README_images/rgb0-0-139.png) rgb(0, 0, 139)
   - ![headerfontcolour](assets/README_images/rgb255-255-255.png) rgb(255, 255, 255)
-  - ![questiondivbackgroundcolour](assets/README_images/rgb44-50-56.png) rbg(44, 50, 56)
+  - ![questiondivbackgroundcolour](assets/README_images/rgb44-50-56.png) rgb(44, 50, 56)
   - ![generalbackground](assets/README_images/rgb70-70-70.png) rgb(70, 70, 70)
 
 - TYPOGRAPHY
@@ -130,34 +130,34 @@ Wireframes for Quiz Page
   - I have checked my HTML using the [W3C HTML Validator](https://validator.w3.org/#validate_by_input).
   - I have had no errors come up but one warning which has informed me that the game section does not have a header and if no header is needed, it would be better practice to change this to a div. I have since changed the section to a div and the testing has passed without errors or warnings afterwards.
   - There were a few "Info" messages showing, stating "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.", which is due to the Prettier extension in CodeAnywhere being used.
-  
+
 ![HTMLtesting](assets/README_images/HTML-testing.png)
 
 - CSS
-  - I have checked my style.css file with the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and was given no errors. There was one warning message regarding the imported style sheets from Google Fonts stating "Imported style sheets are not checked in direct input and file upload modes". This can not be changed as it is an external file from Google Fonts.
+  - I have checked my style.css file with the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and was given no errors. There was one warning message regarding the imported style sheets from Google Fonts stating "Imported style sheets are not checked in direct input and file upload modes". This cannot be changed as it is an external file from Google Fonts.
 
 ![CSStesting](assets/README_images/CSS-testing.png)
 
 - JavaScript
   - The script.js file was tested using [JSHint.com](https://jshint.com/).
-  The testing showed several warnings but no errors.
-  Warnings were revolvong around "ES6 (use 'esversion: 6') or Mozilla JS extensions" and "using dot notation".
+    The testing showed several warnings but no errors.
+    Warnings were revolvong around "ES6 (use 'esversion: 6') or Mozilla JS extensions" and "using dot notation".
 
 ### ACCESSIBILITY
 
-My website has been tested for accessibilty using the WAVE - Web Accessibility Evaluation Tool.
+My website has been tested for accessibility using the WAVE - Web Accessibility Evaluation Tool.
 The report can be viewed [here](https://wave.webaim.org/report#/https://runabrandes.github.io/project-2/)
 
 ### LIGHTHOUSE
 
-- Lighthouse testing was carried out successfully for the page. See below for the outcome:
+- Lighthouse testing was carried out successfully for the page. Please see below for the outcome:
 
 ![lighthouse](assets/README_images/lighthouse.png)
 
 ### DEVICES
 
 I have tested responsiveness and functionality on the following devices and browsers:
-  
+
 - Android:
 
   - Galaxy Tab 7
@@ -166,12 +166,12 @@ I have tested responsiveness and functionality on the following devices and brow
 
   - iPad mini
   - iPhone 14 Pro Max
-  
+
 - Desktops/laptops:
 
   - HP Pavilion Laptop
   - MacBook Air 2023
-  
+
 - Browsers:
 
   - Chrome
@@ -200,9 +200,9 @@ My website has not shown any errors whilst testing was carried out. I only had o
 
 ## PROGRAMS USED
 
-- Github
+- GitHub
 - CodeAnywhere
-- FontAwesome
+- Font Awesome
 - Google Fonts
 - Chrome Developer Tools
 - Balsamiq Wireframes
@@ -219,11 +219,11 @@ My website has not shown any errors whilst testing was carried out. I only had o
 "Geography Quiz" was deployed using GitHub. A link to the live version can be found at the top of this README file.
 
 1. Click on the "Settings" icon at the top of page in the navigation bar of the relevant repository.
-2. Select "Pages" which can be found on the left handside of the GitHub website.
+2. Select "Pages" which can be found on the left hand side of the GitHub website.
 3. In the dropdown menu for Source, select "Deploy from a branch".
-4. In the Branch dropdown menu, select "main" for the first selection, and "root" for the second selection.
+4. In the "Branch" dropdown menu, select "main" for the first selection, and "root" for the second selection.
 5. Click "Save".
-6. The website will refresh and a link to the live website will be available.
+6. After refreshing the page, a link to the live website will be available.
 
 #
 
@@ -233,8 +233,8 @@ My website has not shown any errors whilst testing was carried out. I only had o
 - Font Awesome - for the icons used for the header
 - W3schools - for tips and tricks on coding techniques
 - Stack overflow - for more tips and tricks
-- Slack community - for assisting with some coding issues
-- The Code Institute Tutoring Team - for helping me with some JavaScript code I was unable to solve
+- Slack community - for aiding with some coding issues
+- The Code Institute Tutoring Team - for helping me with JavaScript code I was unable to solve (marked in scipt.js file)
 - YouTube - for different videos on JavaScript functions that gave me a starting idea on how to develop this quiz
   - [First video used](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1453s)
   - [Second video used](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1052s)
