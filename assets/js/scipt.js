@@ -130,7 +130,6 @@ function displayQuestion() {
 }
 
 function displayNextQuestion() {
-    console.log(questionArea);
     //Iterates through questions in array
     currentIndex++;
 
@@ -148,11 +147,9 @@ function displayNextQuestion() {
 //Checks if answers are true or false and updates the score accordingly
 function trueFalseAnswer(trueFalse) {
     if (trueFalse === "true") {
-        console.log("Correct");
         scoreDisplay.innerText = score++;
         alert("Correct! +1 point :D Click the Next button to continue the quiz.");
     } else {
-        console.log("Incorrect");
         alert(
             "Wrong! No points for this round :( Click the Next button to continue the quiz."
         );
