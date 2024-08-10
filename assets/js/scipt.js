@@ -2,6 +2,7 @@ const startBtn = document.getElementById("start");
 const quizArea = document.getElementById("quiz-area");
 const nextBtn = document.getElementById("next");
 const rules = document.getElementById("rules");
+const gameEnd = document.getElementById("game-end");
 
 let questionArea = document.getElementById("question");
 let answerBtn = document.getElementsByClassName("answer-btn");
@@ -9,7 +10,7 @@ let scoreDisplay = document.getElementById("score-display");
 let score2 = document.getElementById("score");
 
 let currentIndex = 0;
-let score = 0;
+let score = 1;
 
 let questions = [
     {
@@ -114,7 +115,7 @@ function startQuiz() {
     scoreDisplay.classList.remove("hide");
     rules.classList.add("hide");
     currentIndex = 0;
-    score = 1;
+    nextBtn.addEventListener("click", displayNextQuestion);
 }
 
 function displayQuestion() {
@@ -133,14 +134,19 @@ function displayNextQuestion() {
     //Iterates through questions in array
     currentIndex++;
 
-    //When no more questions in array alert pops up notifying user of points scored
-    if (currentIndex == questions.length) {
-        alert(
-            `You have scored ${score - 1
-            } out of 10 points! Congratulations! To restart the game please refresh the page :)`
-        );
-    } else {
+    //Displays questions and calls function to reset the colour of answer buttons also displays an end screen when no more questions available
+    if (currentIndex < questions.length) {
+        console.log('enabling next button')
+        nextBtn.setAttribute('disabled', false);
+        resetAnswerBtnColour();
         displayQuestion();
+        
+    } else {
+        gameEnd.classList.remove("hide");
+        quizArea.classList.add("hide");
+        nextBtn.classList.add("hide");
+        score2.classList.add("hide");
+        scoreDisplay.classList.add("hide");
     }
 }
 
@@ -158,17 +164,19 @@ function trueFalseAnswer(trueFalse) {
 
 //Event Listeners
 startBtn.addEventListener("click", startQuiz);
-nextBtn.addEventListener("click", displayNextQuestion);
-nextBtn.addEventListener("click", resetAnswerBtnColour);
 
 /*Event Listener for answerButton that accesses the "correct" value of the answers array
 Tutor from CodeInstitue helped with this code section!*/
+
 for (let i = 0; i < answerBtn.length; i++) {
     answerBtn[i].addEventListener("click", (event) => {
         const dataAnswersValue = answerBtn[i].getAttribute("data-answers");
         trueFalseAnswer(dataAnswersValue);
         loopOverAllButtons();
+        nextBtn.removeAttribute('disabled');
+        
     });
+    
 }
 
 //Function to change the answer button colours depending on if answer is correct or false 
