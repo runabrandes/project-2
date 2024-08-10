@@ -11,6 +11,10 @@ body {
     flex-direction: column;
 }
 
+h1, p {
+    text-align: center;
+}
+
 header {
     display: flex;
     justify-content: center;
