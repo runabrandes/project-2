@@ -153,14 +153,7 @@ function displayNextQuestion() {
 
 //Checks if answers are true or false and updates the score accordingly
 function trueFalseAnswer(trueFalse) {
-    if (trueFalse === "true") {
-        scoreDisplay.innerText = score++;
-        alert("Correct! +1 point :D Click the Next button to continue the quiz.");
-    } else {
-        alert(
-            "Wrong! No points for this round :( Click the Next button to continue the quiz."
-        );
-    }
+    trueFalse === "true" && (scoreDisplay.innerText = score++);
 }
 
 //Event Listeners
