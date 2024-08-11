@@ -202,6 +202,7 @@ My website has not shown any errors whilst testing was carried out. I only had o
 
 - GitHub
 - CodeAnywhere
+- Gitpod Enterprise
 - Font Awesome
 - Google Fonts
 - Chrome Developer Tools
