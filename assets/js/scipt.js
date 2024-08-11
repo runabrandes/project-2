@@ -121,7 +121,7 @@ function startQuiz() {
 function displayQuestion() {
     let currentQuestion = questions[currentIndex];
     questionArea.innerHTML = currentQuestion["question"];
-
+    nextBtn.setAttribute('disabled', false);
     //Accessing the answers array to display answers in button elements
     Array.from(answerBtn).forEach((element, index) => {
         let answers = questions[currentIndex]["answers"];
@@ -136,11 +136,9 @@ function displayNextQuestion() {
 
     //Displays questions and calls function to reset the colour of answer buttons also displays an end screen when no more questions available
     if (currentIndex < questions.length) {
-        console.log('enabling next button')
         nextBtn.setAttribute('disabled', false);
         resetAnswerBtnColour();
         displayQuestion();
-        
     } else {
         gameEnd.classList.remove("hide");
         quizArea.classList.add("hide");
@@ -174,9 +172,15 @@ for (let i = 0; i < answerBtn.length; i++) {
         trueFalseAnswer(dataAnswersValue);
         loopOverAllButtons();
         nextBtn.removeAttribute('disabled');
-        
+        disableAnswerBtns();
     });
-    
+}
+
+//Function to disable the answer buttons when a user has selected an answer to prevent them from clicking another answer
+function disableAnswerBtns() {
+    for (let i = 0; i < answerBtn.length; i++) {
+        answerBtn[i].setAttribute('disabled', true);
+    }
 }
 
 //Function to change the answer button colours depending on if answer is correct or false 
@@ -199,5 +203,6 @@ function loopOverAllButtons() {
 function resetAnswerBtnColour() {
     for (let i = 0; i < answerBtn.length; i++) {
         answerBtn[i].style.backgroundColor = '';
+        answerBtn[i].removeAttribute('disabled');
     }
 }
