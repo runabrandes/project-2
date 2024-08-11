@@ -3,11 +3,13 @@ const quizArea = document.getElementById("quiz-area");
 const nextBtn = document.getElementById("next");
 const rules = document.getElementById("rules");
 const gameEnd = document.getElementById("game-end");
+const endScore = document.getElementById("end-score");
 
 let questionArea = document.getElementById("question");
 let answerBtn = document.getElementsByClassName("answer-btn");
 let scoreDisplay = document.getElementById("score-display");
 let score2 = document.getElementById("score");
+
 
 let currentIndex = 0;
 let score = 1;
@@ -145,6 +147,7 @@ function displayNextQuestion() {
         nextBtn.classList.add("hide");
         score2.classList.add("hide");
         scoreDisplay.classList.add("hide");
+        endScore.innerText = score - 1;
     }
 }
 
